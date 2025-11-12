@@ -4,19 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <style>
+        html {
+            color-scheme: light;
+        }
+    </style>
+    
+    <script type="text/tailwindcss-config">
+        tailwind.config = {
+            darkMode: false
+        }
+        </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style rel="stylesheet" href="style.css"></style>
     <script src="script.js"></script>
     <title>Indira.Idn</title>
 </head>
 
-<body
-    class="flex flex-col items-center justify-center bg-[url('images/Background.jpg')] bg-scroll bg-cover text-center min-h-screen">
+<body class="flex flex-col items-center justify-center bg-[url('images/Background.jpg')] bg-scroll bg-cover text-center min-h-screen">
 
     <header class="w-full max-w-lg px-4 mt-10 lg:mt-16">
         <div class="w-full p-3 my-2 mt-6 text-black flex flex-col items-center">
             <img src="images/Profil_Indira.JPG" alt="Indira.Idn"
-                class="w-32 sm:w-40 rounded-full border-2 border-white shadow-sm shadow-slate-900">
+                class="w-32 sm:w-40 rounded-full border-2 shadow-sm shadow-slate-900">
             <div class="py-3 mt-3">
                 <h1 class="font-semibold text-lg font-mono lg:text-2xl">Indira Official</h1>
                 <p class="font-medium lg:text-xl">@Indira.Idn</p>
